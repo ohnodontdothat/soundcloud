@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Happiness-Sans-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Happiness-Sans-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+a {
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+img {
+  display: block;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.inner {
+  width: 90%;
+  margin: 0px auto;
+}
+h2 {
+  font-family: "Archivo Black", sans-serif;
+}
+p {
+  font-family: "Happiness-Sans-Regular";
+}
+.button {
+  width: 8rem;
+  height: 2.5rem;
+  background-color: #f15822;
+  border-radius: 2rem;
+  margin: 1rem auto;
+}
+.button > a {
+  color: #fff;
+  text-align: center;
+  line-height: 2.5rem;
+}
+.first > .button {
+  margin: 3rem auto;
+}

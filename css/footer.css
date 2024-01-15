@@ -1,0 +1,138 @@
+/*footer*/
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 0rem 2rem;
+  gap: 2rem;
+}
+.footer_img {
+  width: 100%;
+  height: 4rem;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #111;
+  overflow: hidden;
+  position: relative;
+}
+.footer_img .img {
+  width: 200%;
+  height: 100%;
+  display: flex;
+  padding: 0.6rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer_img .img_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #111;
+}
+.footer_img img {
+  width: 6%;
+}
+footer .f_logo {
+  width: 5%;
+}
+footer .f_logo img {
+  width: 100%;
+}
+.center .menu_wrap ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-family: "Happiness-Sans-Bold";
+}
+.center .menu_wrap ul li a:hover {
+  text-decoration: underline;
+}
+.center .menu_wrap > ul > li > a {
+  color: #333;
+}
+.sns_wrap {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.sns {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1.9px solid #333;
+  overflow: hidden;
+}
+.sns > a {
+  width: 100%;
+  height: 100%;
+}
+.sns:nth-of-type(1) a {
+  background: url("../img/facebook.png") no-repeat center / 50%;
+}
+.sns:nth-of-type(2) a {
+  background: url("../img/x.png") no-repeat center / 40%;
+}
+.sns:nth-of-type(3) a {
+  background: url("../img/instagram.png") no-repeat center / 50%;
+}
+.sns:nth-of-type(4) a {
+  background: url("../img/youtube.png") no-repeat center / 55%;
+}
+.sns:hover a {
+  filter: invert(0.5);
+}
+.bottom {
+  border-top: 1px solid #ddd;
+  padding-top: 2rem;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 1023px) and (min-width: 481px) {
+  footer {
+    padding: 0rem;
+  }
+  footer .f_logo {
+    width: 15%;
+  }
+  .center .menu_wrap ul {
+    font-size: 0.9rem;
+    gap: 1rem;
+  }
+  .sns {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .center .menu_wrap ul {
+    font-size: 0.8rem;
+    gap: 2.7rem;
+    margin: 0px auto;
+  }
+  .bottom {
+    border-top: 1px solid #ddd;
+    padding: 2rem 1rem;
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 480px) {
+  footer {
+    padding: 0rem;
+  }
+  footer .f_logo {
+    width: 20%;
+  }
+  .center .menu_wrap ul {
+    font-size: 0.7rem;
+    gap: 1.2rem;
+  }
+  .bottom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.5rem;
+  }
+}
