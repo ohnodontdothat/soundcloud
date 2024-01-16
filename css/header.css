@@ -174,7 +174,7 @@ header.on {
     height: 50px;
   }
   header h1 {
-    width: 50%;
+    width: 40%;
   }
   header a {
     width: 100%;
@@ -196,9 +196,6 @@ header.on {
     width: 1.5em;
     height: 1em;
     cursor: pointer;
-    position: fixed;
-    right: 2.5%;
-    top: 1.9%;
     z-index: 94;
     display: block;
   }
