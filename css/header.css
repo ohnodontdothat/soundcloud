@@ -65,7 +65,7 @@ header.on {
   color: #fff;
   text-shadow: 2px 2px 2px #111;
 }
-@media (max-width: 768px) and (min-width: 432px) {
+@media (max-width: 768px) and (min-width: 480px) {
   .wrap {
     position: relative;
   }
@@ -170,6 +170,9 @@ header.on {
     position: relative;
     overflow-x: hidden;
   }
+  header {
+    height: 50px;
+  }
   header h1 {
     width: 50%;
   }
@@ -190,12 +193,12 @@ header.on {
   }
   /*hamberger bars*/
   .bars {
-    width: 2em;
+    width: 1.5em;
     height: 1em;
     cursor: pointer;
     position: fixed;
     right: 2.5%;
-    top: 3%;
+    top: 2.5%;
     z-index: 94;
     display: block;
   }
@@ -208,7 +211,7 @@ header.on {
   }
   .bar {
     width: 100%;
-    height: 0.1em;
+    height: 0.15rem;
     position: absolute;
     background-color: #fff;
     text-shadow: 2px 2px 2px #111;
@@ -261,5 +264,34 @@ header.on {
   .side_menu .menu p:hover {
     text-decoration: line-through;
     text-decoration-thickness: 0.05em;
+  }
+  .login {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    top: 15%;
+    right: 1.3%;
+    z-index: 5;
+  }
+  .login a {
+    height: 100%;
+  }
+  .log_bg {
+    width: 100%;
+    height: 100%;
+    background-color: #f15822;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .login span {
+    width: 100%;
+    display: inline-block;
+    color: #fff;
+    font-size: 33px;
+  }
+  .login p {
+    color: #fff;
+    text-shadow: 2px 2px 2px #111;
+    font-size: 0.8rem;
   }
 }

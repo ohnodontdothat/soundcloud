@@ -644,7 +644,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 767px) and (min-width: 481px) {
+@media (max-width: 767px) and (min-width: 480px) {
   /*visual*/
   .visual {
     height: 80vh;
@@ -832,7 +832,7 @@ body {
     margin: 3rem auto 0;
   }
 }
-@media all and (max-width: 480px) {
+@media all and (max-width: 431px) {
   .visual {
     height: 55vh;
   }
@@ -947,6 +947,7 @@ body {
   .second {
     flex-direction: column;
     gap: 2rem;
+    margin: 0rem auto;
   }
   .second > div {
     width: 100%;
