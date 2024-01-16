@@ -654,7 +654,7 @@ header {
     display: none;
   }
 }
-@media all and (max-width: 431px) {
+@media all and (max-width: 480px) {
   .wrap {
     margin: 0px auto;
   }

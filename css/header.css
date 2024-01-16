@@ -164,7 +164,7 @@ header.on {
     text-decoration-thickness: 0.05em;
   }
 }
-@media (max-width: 431px) {
+@media (max-width: 480px) {
   .wrap {
     width: 100%;
     position: relative;

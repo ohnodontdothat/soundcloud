@@ -832,7 +832,7 @@ body {
     margin: 3rem auto 0;
   }
 }
-@media all and (max-width: 431px) {
+@media all and (max-width: 480px) {
   .visual {
     height: 55vh;
   }
