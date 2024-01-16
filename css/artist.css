@@ -25,7 +25,7 @@ header {
 .ar_title h2 {
   font-size: 7rem;
   text-align: right;
-  transform: translateX(-10rem);
+  transform: translateX(-20rem);
   position: relative;
   z-index: 2;
   -webkit-text-stroke: 2px #fff;
@@ -680,7 +680,7 @@ header {
   .ar_title {
     flex-direction: column;
     justify-content: center;
-    margin-top: 1.5rem;
+    margin-top: 0.1rem;
   }
   .ar_title h2 {
     font-size: 3.5rem;
@@ -736,17 +736,18 @@ header {
     transform: translate3d(0, 0, 0);
     position: -webkit-sticky;
   }
-  .con2_l.mobile_sticky {
+  .con2 .ex_l.mobile_sticky {
     position: fixed;
-  }
-  .con2 .ex_sticky {
-    width: 100%;
-    height: 27%;
   }
   .con2 .ex_l {
     width: 200px;
+    height: 155px;
     margin-top: 1rem;
     top: 5rem;
+  }
+  .con2 .ex_sticky {
+    width: 100%;
+    height: 100%;
   }
   .con2 .ex_r {
     width: 80%;

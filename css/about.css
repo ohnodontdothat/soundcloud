@@ -1154,11 +1154,11 @@ iframe {
     transform: translateX(3rem) translateY(-3rem);
   }
   .frame li:nth-of-type(1) img {
-    top: -7.2%;
+    top: -6%;
     left: 7%;
   }
   .frame li:nth-of-type(2) img {
-    top: 18.9%;
+    top: -18.9%;
   }
   .frame li:nth-of-type(3) img {
     width: 67%;
