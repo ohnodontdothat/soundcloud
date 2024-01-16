@@ -1157,16 +1157,19 @@ iframe {
     top: -7.2%;
     left: 7%;
   }
+  .frame li:nth-of-type(2) img {
+    top: 18.9%;
+  }
   .frame li:nth-of-type(3) img {
     width: 67%;
     transform-origin: bottom;
-    top: -48%;
+    top: -45%;
     left: 20%;
   }
   .frame li:nth-of-type(4) img {
     width: 80%;
     transform-origin: bottom;
-    top: -4.5%;
+    top: -3.5%;
     left: 14%;
   }
   .frame li p {
