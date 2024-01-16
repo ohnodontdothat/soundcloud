@@ -19,12 +19,12 @@ $(function () {
         }
       });
       if ($(window).width() < 431) {
-        $(".con2 .ex_l").addClass(".mobile_sticky");
+        $(".con2 .ex_l").addClass("mobile_sticky ");
       }
     }
     if ($(window).scrollTop() > $(".con3").offset().top + mm_baseline) {
       if ($(window).width() < 431) {
-        $(".con2 .ex_l").removeClass(".mobile_sticky");
+        $(".con2 .ex_l").removeClass("mobile_sticky");
       }
       $(".con3").addClass("on");
     }
@@ -48,12 +48,12 @@ $(function () {
         }
       });
       if ($(window).width() < 431) {
-        $(".con2 .ex_l").addClass(".mobile_sticky");
+        $(".con2 .ex_l").addClass("mobile_sticky");
       }
     }
     if ($(window).scrollTop() > $(".con3").offset().top + mm_baseline) {
       if ($(window).width() < 431) {
-        $(".con2 .ex_l").removeClass(".mobile_sticky");
+        $(".con2 .ex_l").removeClass("mobile_sticky");
       }
       $(".con3").addClass("on");
     }
