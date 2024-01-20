@@ -525,6 +525,14 @@ iframe {
   transition-delay: 1s;
   transform: translateY(0rem);
 }
+@media all and (min-width: 1520px) {
+  .frame li {
+    width: 406.85px;
+    height: 336px;
+    min-width: 406.85px;
+    min-height: 336px;
+  }
+}
 @media (max-width: 1512px) and (min-width: 1024px) {
   .a_left h2 {
     font-size: 5rem;
