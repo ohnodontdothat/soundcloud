@@ -125,10 +125,10 @@ header.on {
 
   /*side menu*/
   .side_menu {
-    width: 100%;
+    width: 60%;
     height: 100vh;
     margin: 0px auto;
-    background-color: #111;
+    background-color: linear-gradient(#fff, #f69d3c, #453d82 #111);
     position: fixed;
     left: 100%;
     top: 0;
