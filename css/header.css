@@ -35,7 +35,7 @@ header.on .bar {
   background-color: #fff !important;
 }
 header.on {
-  background-color: #111;
+  background-color: transparent;
 }
 /*side_menu*/
 .side_menu .menu li p {
@@ -76,7 +76,7 @@ header.on {
   color: #fff;
   text-shadow: 2px 2px 2px #111;
 }
-@media (max-width: 768px) and (min-width: 480px) {
+@media (max-width: 768px) and (min-width: 481px) {
   .wrap {
     position: relative;
   }
@@ -238,7 +238,7 @@ header.on {
     width: 100%;
     height: 100vh;
     margin: 0px auto;
-    background-color: #111;
+    background: linear-gradient(to bottom, #f69d3c, #453d82, #111);
     position: fixed;
     left: 100%;
     top: 0;
