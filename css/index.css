@@ -644,7 +644,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 767px) and (min-width: 480px) {
+@media (max-width: 767px) and (min-width: 481px) {
   /*visual*/
   .visual {
     height: 80vh;
@@ -841,7 +841,7 @@ body {
     object-fit: cover;
   }
   .visual h3 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   .visual.on h3 {
     top: 30%;
@@ -859,7 +859,7 @@ body {
     height: 11rem;
   }
   .visual .circle_menu.on {
-    margin: -8rem auto 0;
+    margin: -7rem auto 0;
   }
   .visual .circle_menu:nth-of-type(2) .circle img {
     width: 130%;

@@ -822,7 +822,7 @@ iframe {
     font-size: 0.9rem;
   }
 }
-@media (max-width: 767px) and (min-width: 480px) {
+@media (max-width: 767px) and (min-width: 481px) {
   .a_title {
     position: relative;
   }
