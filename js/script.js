@@ -1,14 +1,11 @@
 $(function () {
   let baseline = -200;
   let m_baseline = -500;
-  /*header 떠오르는 텍스트*/
 
   /*load*/
   $(window).on("load", function () {
     if ($(window).scrollTop() == 0) {
-      setTimeout(function () {
-        $(".loading").style.display = "none";
-      }, 3000);
+      /*header 떠오르는 텍스트*/
       $(".visual").addClass("on");
       setTimeout(function () {
         $(".circle_menu").addClass("on");
