@@ -2,13 +2,17 @@ $(function () {
   let baseline = -200;
   let m_baseline = -500;
   /*header 떠오르는 텍스트*/
-  $(".visual").addClass("on");
-  setTimeout(function () {
-    $(".circle_menu").addClass("on");
-  }, 1500);
+
   /*load*/
   $(window).on("load", function () {
     if ($(window).scrollTop() == 0) {
+      setTimeout(function () {
+        $(".loading").style.display = "none";
+      }, 3000);
+      $(".visual").addClass("on");
+      setTimeout(function () {
+        $(".circle_menu").addClass("on");
+      }, 1500);
       $("header").css({ backgroundColor: "transparent" });
     }
     if ($(window).scrollTop() > $(".container").offset().top + baseline) {
