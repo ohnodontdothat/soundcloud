@@ -9,7 +9,7 @@ $(function () {
       $(".visual").addClass("on");
       setTimeout(function () {
         $(".circle_menu").addClass("on");
-      }, 1500);
+      }, 1400);
       $("header").css({ backgroundColor: "transparent" });
     }
     if ($(window).scrollTop() > $(".container").offset().top + baseline) {
